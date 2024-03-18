@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", //versao
+        "outDir": "./dist/js", //distino 
+        "noEmitOnError": true // so compila se nao tiver erro
+    },
+    "include": [//onde ele deve procurar os arquivos ts 
+        "./src/**/*"
+    ]
+    //pra compilar é so rodar no terminal tsc -w
+}

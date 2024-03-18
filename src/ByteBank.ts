@@ -2,6 +2,8 @@ let saldo = 3000
 const elementoSaldo = document.querySelector('.valor') as HTMLElement
 elementoSaldo.textContent = saldo.toString();
 
+console.log('teste');
+
 const elementoFormulario = document.querySelector('.block-nova-transacao form') as HTMLFormElement
 elementoFormulario.addEventListener('submit', function(e){
     e.preventDefault()
